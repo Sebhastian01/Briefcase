@@ -25,13 +25,6 @@ header a {
   font-size: 2rem;
 }
 
-a{
-  text-decoration: none;
-  color: white;
-  padding: 3rem;
-  font-size: 1.5rem;
-}
-
 h1 {
   font-size: 2.5rem;
   margin: 1rem;
@@ -140,11 +133,15 @@ footer {
   color: #192440;
   background-color: #00ffad;
   align-content: center;
+  cursor: pointer;
 }
 
 .projects a{
   display: flex;
   justify-content: center;
+  text-decoration: none;
+  color: white;
+  cursor: default;
 }
 
 @media screen and (min-width: 380px) and (max-width: 520px) {
