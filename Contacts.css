@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;  
+    height: auto;
+    background-color:#08082C ;
+}
+
+header{
+    width: 100%;
+    height: 5rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 3rem;
+    font-size: 1.5rem;
+}
+
+.footer h2{
+    padding: 0rem 0rem 1rem;
+}
+
+.Lorem{
+    padding: 0rem 0rem 1.5rem;
+}
+
+.Lorem2 p{
+    padding: 0rem 0rem .5rem;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 8rem 4rem;
+    background-image: url(assets/contact-bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.Data1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 0rem 0rem;
+}
+
+.name{
+    padding: 0rem 1rem 1rem;
+    color: #00ffad;
+}
+
+.footer input{
+   padding: .5rem;
+   border-radius: .3rem;
+   background: transparent;
+   border-color:#00ffad ;
+}
+
+.Email{
+    padding: 0rem 1rem 1rem;
+    color: #00ffad;
+}
+
+.Message{
+    padding: 0rem 1rem 1rem;
+    width: 100%;
+    color: #00ffad;
+}
+
+.Message textarea{
+    background: transparent;
+    border-radius: .3rem;
+    padding: .5rem;
+    width: 100%;
+    border-color:#00ffad ;
+}
+
+.ultimatefooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 8rem 2rem;
+    background-color: #192440;
+    color: #fff;
+}
+
+.ultimatefooter a{
+    background-color: #fff;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+.Message button{
+    width: 100%;
+    background-color: #00ffad;
+    border-radius: 2rem;
+    color: black;
+    padding: .5rem;
+}

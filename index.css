@@ -152,17 +152,15 @@ footer {
     justify-content: center;
 }
 
-a{
-  text-decoration: none;
-  color: white;
-  padding: 1rem;
-  font-size: 1.5rem;
-}
-
   .container-projects > .card {
-    width: 15rem;
-    height:15rem;
-  }
+  width: 22rem;
+  height:22rem;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  background-size: 100px;
+}
 
   body {
     width: auto;  
