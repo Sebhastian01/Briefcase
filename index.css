@@ -91,17 +91,15 @@ main {
   width: 25rem;
   height:25rem;
   margin: 0.5rem;
-  background-color: #1f1ff1;
   display: flex;
   justify-content: center;
-  align-items: center;
   color: #fff;
   background-size: 100px;
 }
 
 .container-projects img{
   width: 100%;
-  height: 100%;
+  height: 20rem;
 }
 
 .experiences {
@@ -135,16 +133,18 @@ footer {
   align-items: center;
 }
 
-button{
-  padding: .5rem;
-  width: 10%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.card button{
+  padding: 0.8rem;
+  width: 30%;
   border-radius: 2rem;
   color: #192440;
-  align-self: center;
   background-color: #00ffad;
+  align-content: center;
+}
+
+.projects a{
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (min-width: 380px) and (max-width: 520px) {
