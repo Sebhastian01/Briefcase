@@ -8,6 +8,9 @@ body {
     width: auto;  
     height: auto;
     background-color:#08082C ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 header{
@@ -26,35 +29,30 @@ a{
 }
 
 .footer h2{
-    padding: 0rem 0rem 1rem;
+    padding: 1rem;
 }
 
 .Lorem{
-    padding: 0rem 0rem 1.5rem;
+    padding: 1rem;
 }
 
 .Lorem2 p{
-    padding: 0rem 0rem .5rem;
+    padding: .5rem;
 }
 
 .footer1{
     display: flex;
     justify-content: space-between;
-    padding: 4rem 8rem 4rem;
-    background-image: url(assets/contact-bk.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding: .5rem;
     color: #fff;
 }
 
 .Data1{
     display: flex;
-    justify-content: space-between;
-    padding: 0rem 0rem 0rem;
 }
 
 .name{
-    padding: 0rem 1rem 1rem;
+    padding: 1rem;
     color: #00ffad;
 }
 
@@ -66,12 +64,12 @@ a{
 }
 
 .Email{
-    padding: 0rem 1rem 1rem;
+    padding: 1rem;
     color: #00ffad;
 }
 
 .Message{
-    padding: 0rem 1rem 1rem;
+    padding: 1rem;
     width: 100%;
     color: #00ffad;
 }
@@ -84,24 +82,41 @@ a{
     border-color:#00ffad ;
 }
 
-.ultimatefooter{
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 8rem 2rem;
-    background-color: #192440;
-    color: #fff;
-}
-
-.ultimatefooter a{
-    background-color: #fff;
-    border-radius: 1rem;
-    font-size: 1.5rem;
-}
 
 .Message button{
     width: 100%;
     background-color: #00ffad;
     border-radius: 2rem;
-    color: black;
+    color: #00ffad;
     padding: .5rem;
+    color: black;
 }
+
+@media screen and (min-width: 380px) and (max-width: 520px) {
+
+    header {    
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    body {
+        width: auto;  
+        height: auto;
+    }
+
+    .footer2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    }
